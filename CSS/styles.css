@@ -1,4 +1,9 @@
 /*  */
+*::after
+*::before
+*{
+    box-sizing: border-box;
+}
 :root{
         /* Основные шрифты */
         --main-font: 'Roboto', sans-serif;
@@ -119,9 +124,8 @@ color: var(--primary-text-color);
 
 
 .feature-title {
-   font-family: Roboto;
    font-style: normal;
-   font-weight: bold;
+   font-weight: 700;
    font-size: 14px;
    line-height: 1.14;
    letter-spacing: 0.03em;
@@ -281,5 +285,9 @@ span{
     font-style: normal;
 }
 .header-contact-list{
+    list-style-type: none;
+}
+.projects-item-list
+{
     list-style-type: none;
 }
